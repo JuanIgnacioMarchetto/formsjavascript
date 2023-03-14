@@ -64,6 +64,37 @@ const record =data.find((value, index)=>{
         recordIndex=index;
         return index;
     }
-});
+});/*
 console.table(record);
-console.log('Index', recordIndex);
+console.log('Index', recordIndex);*/
+
+
+//console.log(data.every((value)=>value.age > 18));
+
+//console.log (data.every(value)=>value.country));
+/*
+console.log(data.some((value)=>value > 26));
+console.log (data.some((value)=>value.age > 18));
+*/
+
+const countries = data.map((value)=>{
+    return value.country;
+})
+
+//console.log (countries);
+//console.table(countries);
+
+const districtCountries = new Set();
+data.forEach((value)=>{
+    districtCountries.add(value.country);
+});
+console.table(districtCountries)
+
+{const districtCountries =new Map();
+let count;
+data.forEach(value=>{
+    count= districtCountries.get(value.country) || 0;
+    districtCountries.set (value.country, ++count);
+    });
+} console.log(districtCountries);
+console.table(districtCountries);
