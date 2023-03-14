@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form">
+        <div>            
+        <label for="nombre">nombre</label>
+        <input type="text" id="nombre" name="nombre"  minlength="4" maxlength="30">
+        </div>
+
+        <br>
+        <label for="date">año de nacimiento</label>
+        <input type="date"  name="date" id="date">
+
+        <br>
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}">
+
+        <br>
+        <label for="password">Password</label><button>ver</button>
+        <input type="password"  name="password" id="password" minlength="6" maxlength="12" required>
+
+        <br>
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" name="eaed">
+
+        <br>
+        <label for="apellido">apellido</label>
+        <input type="text" id="apellido" name="apellido">
+
+        <br>
+        <label for="direccion">direccion</label>
+        <input type="text" id="direccion" name="direccion" placeholder="mi direccion">
+
+        <br>
+        <label for="provincia">provincia</label>
+        <input type="text" id="provincia" name="provincia">
+        <br>
+        <div>
+            
+        <label for="pais">Pais</label>
+        <select name="pais" id="pais" required>
+            <optgroup>
+                <option value="argentina">argentina</option>
+                <option value="uruguay">uruguay</option>
+                <option value="brazil">brazil</option>
+                <option value="chile">chile</option>
+            </optgroup>
+        </select>
+
+        </div>
+        <div>
+            <label for="genero">genero:</label>
+            <div>
+                <input type="radio" id="hombre" name="genero"value="hombre">hombre
+                <input type="radio" id="mujer" name="genero"value="mujer">mujer
+                <input type="radio" id="otros" name="genero"value="otros">otros
+            </div>
+        </div>
+        
+        <p>
+
+            <button onclick="recogerDatos()"></button>
+        </p>
+
+        
+
+    </form>
+    <script type="button src="./practicas.js"></script>
+</body>
+</html>
