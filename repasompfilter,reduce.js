@@ -102,3 +102,9 @@ const sortedValue = [...districtCountries.entries()].sort((a,b)=>{
     return b[1]-a[1];
 });
 console.log(sortedValue);
+
+const totalCountries = sortedValue.reduce((acc,current)=>{
+return acc + current[1]
+},0);
+
+console.log (totalCountries)
