@@ -88,7 +88,7 @@ const districtCountries = new Set();
 data.forEach((value)=>{
     districtCountries.add(value.country);
 });
-console.table(districtCountries)
+//console.table(districtCountries)
 
 {const districtCountries =new Map();
 let count;
@@ -98,3 +98,7 @@ data.forEach(value=>{
     });
 } console.log(districtCountries);
 console.table(districtCountries);
+const sortedValue = [...districtCountries.entries()].sort((a,b)=>{
+    return b[1]-a[1];
+});
+console.log(sortedValue);
