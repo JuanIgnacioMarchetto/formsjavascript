@@ -27,7 +27,7 @@ frase=
 document.write(frase)*/
 
 
-nombre="juan ignacio";
+//nombre="juan ignacio";
 
 //frase="soy "+ nombre + " y estoy caminando";
 //frase= `soy ${nombre} y estoy caminando`;
@@ -117,4 +117,14 @@ let numero2=23;
  document.write(numero1 <numero 2)
  [retorna: false]
 
- 
+let valor=true¨;
+let valor2= true;
+
+let resultado = valor && valor"
+
+let resultado2 = valor|| valor2;
+
+let resultaado3 =!valor;
+document.write(resultado)
+[retornan=true, true, false ]*/
+
