@@ -95,3 +95,26 @@ texto2="texto2";
 document.write(texto1!==numero1)
 */
 //{retorna true}
+/*
+let numero1=23;
+let numero2=13;
+ document.write(numero1 >numero 2)
+ [retorna:true]
+ /*
+let numero1=23;
+let numero2=13;
+ document.write(numero1 < numero 2)
+ [retorna: false]
+
+ /*
+let numero1=23;
+let numero2=13;
+ document.write(numero1 =>numero 2)
+ [retorna:true]
+
+ let numero1=23;
+let numero2=23;
+ document.write(numero1 <numero 2)
+ [retorna: false]
+
+ 
