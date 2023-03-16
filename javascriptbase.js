@@ -184,4 +184,14 @@ if(nombre=="lucas"){
 else if(nombre=="pepe"){
     alert("tu nombre es una mierda")
 }*/
+/*
+if(nombre=="lucas"){
+    alert("tu nombre es genial")
+}
+else if(nombre=="pepe"){
+    alert("tu nombre es una mierda")
+}
+else{
+    alert("tu nombre es otro")
+}*/
 
