@@ -1,5 +1,5 @@
 
-
+/*
 dineroCofla = prompt("cuanto dinero tienes cofla?");
 dineroRoberto = prompt("cuanto dinero tienes roberto?");
 dineroPedro = prompt("cuanto dinero tienes pedro?");
@@ -35,11 +35,11 @@ else if (dineroCofla >= 2.9) {
 } else {
 	alert("lo siento cofla, pobre de mierda, no te alcanza para ningun helado");
 }
+*/
 
 
 
-
-
+/*
 if (dineroRoberto >= 0.6 && dineroRoberto < 1) {
 	alert("roberto, comprate el helado de agua");
 }
@@ -64,9 +64,9 @@ else if (dineroRoberto >= 2.9) {
 	alert("lo siento roberto, pobre de mierda, no te alcanza para ningun helado");
 }
 
+*/
 
-
-
+/*
 if (dineroPedro >= 0.6 && dineroPedro < 1) {
 	alert("pedro; comprate el helado de agua");
 }
@@ -90,4 +90,68 @@ else if (dineroPedro >= 2.9) {
 } else {
 	alert("lo siento pedro, pobre de mierda, no te alcanza para ningun helado");
 }
+*/
+/*
+boleto = 0.9;
+dinero = 2.7;
+
+if (dinero/boleto < 1) {
+	alert("no alcanzan boletos bro")
+}
+
+else if (dinero/boleto >= 1 && dinero/boleto < 2) {
+	vuelto = dinero - boleto;
+	alert("comprar 1 y el vuelto es: " + vuelto);
+}
+
+else if (dinero/boleto >= 2 && dinero/boleto < 3){
+	vuelto = dinero - boleto*2;
+    alert("comprar 2 y el vuelto es: " + vuelto);
+}
+
+else {
+	vuelto = dinero - boleto*2;
+    alert("comprar dos y el vuelto es: " + vuelto + ", regalarlo")
+}
+let sospechoso1 = prompt("Sospechoso 1 ¿mintió?");
+let sospechoso2 = prompt("Sospechoso 2 ¿mintió?");
+let cofla = prompt("Sospechoso 3 ¿mintió?");
+*/
+
+
+
+/*if (sospechoso1 == 1) {
+	alert("sospechoso 1 mintió, darle descarga electrica")
+}
+else if (sospechoso1 == 2) {
+	alert("sospechoso 1 no mintió, no darle descarga")
+}
+
+else {
+	alert("no se si sospechoso 1 minitó, probemos de vuelta")
+}
+
+
+if (sospechoso2 == 1) {
+	alert("sospechoso 2 mintió, darle descarga electrica")
+}
+else if (sospechoso2 == 2) {
+	alert("sospechoso 2 no mintió, no darle descarga")
+}
+
+else {
+	alert("no se si sospechoso 2 mintió, probemos de vuelta")
+}
+
+
+if (cofla == 1) {
+	alert("cofla mintió, no darle descarga")
+}
+else if (cofla == 2) {
+	alert("cofla no mintió, no darle descarga")
+}
+
+else {
+	alert("no se si cofla mintió, probemos de vuelta")
+}*/
 

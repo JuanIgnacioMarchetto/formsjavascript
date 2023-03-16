@@ -135,7 +135,7 @@ afirmacion2=num1 != num2;
 documen.write(afirmacion || affirmacion)[true]
 documen.write(!afirmacion){retorna lo contrario de lo q realmente deveria retornar}
 */
-num1=12;
+/*num1=12;
 num2=24;
 afirmacion1=num1<num2;
 afirmacion2=num1==num2;
@@ -148,9 +148,40 @@ num2=24;
 num3=25;
 num4=92;
 num5=91;
-op=(num1<num2||num3)&&(!num1 && num5 != num3 )
+//op=(num1<num2||num3)&&(!num1 && num5 != num3 )
+/// q es igual a op=false
 //document.write(num1<num2 || num1==num2)
 
 document.write(op)
+*/
 
+///-----
+
+///----
+//condicionales
+/*
+if(10<=14){
+    alert("hola")
+
+}
+if ("pedro"=="pedro"){
+    alert("hola")
+}*/
+/*
+nombre="juan"
+if(nombre=="lucas"){
+    alert("tu nombre es " + nombre)
+}else if (nombre=="dalto"){
+    alert("tu nombre es " + nombre)
+}
+*/
+/*
+nombre = "lucas"
+
+if(nombre=="lucas"){
+    alert("tu nombre es genial")
+}
+else if(nombre=="pepe"){
+    alert("tu nombre es una mierda")
+}*/
 
