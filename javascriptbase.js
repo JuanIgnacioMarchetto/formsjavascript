@@ -128,3 +128,29 @@ let resultaado3 =!valor;
 document.write(resultado)
 [retornan=true, true, false ]*/
 
+/*num1 = 12;
+num2=24;
+afirmacion1 =num1>num2;
+afirmacion2=num1 != num2;
+documen.write(afirmacion || affirmacion)[true]
+documen.write(!afirmacion){retorna lo contrario de lo q realmente deveria retornar}
+*/
+num1=12;
+num2=24;
+afirmacion1=num1<num2;
+afirmacion2=num1==num2;
+
+//Document.write(!true)(retorna false)
+//Document.write(!false)(retornatrue)
+
+num1=12;
+num2=24;
+num3=25;
+num4=92;
+num5=91;
+op=(num1<num2||num3)&&(!num1 && num5 != num3 )
+//document.write(num1<num2 || num1==num2)
+
+document.write(op)
+
+
