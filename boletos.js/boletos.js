@@ -1,4 +1,4 @@
-boleto = 0.9;
+/*boleto = 0.9;
 dinero = 2.7;
 
 if (dinero/boleto < 1) {
@@ -133,5 +133,73 @@ else if (cofla == 2) {
 
 else {
 	alert("no se si cofla mintió, probemos de vuelta")
+}
+*/
+
+/*rrays= [
+    [
+        "lucas",
+        24,
+        "buenos aires"
+    ]
+]*/
+/*
+frutas=[
+    "banana","manzana","pera",5,9,"pedro"
+];
+
+document.write(frutas[1])
+
+*/
+/*
+["elemento 1","elemento 2"],"elemento #";
+      |            |              |
+     \ /          \ /            \ /
+     [0]          [1]            [2]*/
+/*
+let pc =
+[{
+    nombre="juanpc",
+    procesador="intel core 17",
+    ram="16gb",
+    espacio="1tb",
+};
+
+document.write(pc["ram"]);*/
+/*/
+numeroParaSumar =0;
+if (numeroParaSumar<10){
+    //document.write("Es, menor q diez")
+ numeroParaSumar++ ;
+document.write(numeroParaSumar)}
+*/
+
+/*let numero =0;
+while(numero<10){
+    numero++;
+    document.write( + "<br>")
 }*/
 
+/*let numero =0;
+
+do{ document.write( numero + "<br>");
+    numero++;
+   
+}
+while(numero<10)
+*/
+/*
+while(numero<1000){
+    numero++;
+    document.write(numero);
+
+}*/
+/*
+while(numero<1000){
+    numero++;
+    document.write(numero);
+if(numero==10){
+    break
+}}
+
+document.write("fin")*/
